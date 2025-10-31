@@ -1,17 +1,19 @@
 body {
-  background-color: #0c4a6e;
+  background-color: #1F2937;
   margin-left: 30px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 #title-container {
   display: flex;
-  align-items: start;
+  align-items: center;
   flex-direction: column;
   margin: 50px 0 10px 0px;
 }
 
 #title-container h1 {
-  margin: -2px 0 -4px 0px;
+  margin: -1px 0 -2px 0px;
   font-size: 35px;
 }
 
@@ -31,6 +33,29 @@ p {
 #gen-pw-btn {
   border: none;
   background-color: #10B981;
-  padding: 8px 12px;
-  border-radius: 3px;
+  color: #fff;
+  padding: 12px 15px;
+  border-radius: 4px;
+  margin: 20px 0 30px 0;
+}
+
+#divider {
+  display: block;
+  border: 1px solid #2e3f53;
+  margin: 10px auto;
+  width: 60%;
+}
+
+.password-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.pw-btn {
+  width: 15%;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #263449;
+  border: none;
+  margin: 0 20px;
 }
