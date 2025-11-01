@@ -2,27 +2,25 @@ body {
   background-color: #1F2937;
   margin-left: 30px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  text-align: center;
+  text-align: left;
 }
 
-#title-container {
+#parent-container {
+  margin: 20px 40px;
   display: flex;
-  align-items: center;
   flex-direction: column;
-  margin: 50px 0 10px 0px;
-}
-
-#title-container h1 {
-  margin: -1px 0 -2px 0px;
-  font-size: 35px;
+  align-items: start;
 }
 
 #title-upper {
   color: #fff;
+  margin: 75px 0 -25px 0;
+  font-size: 35px;
 }
 
 #title-lower {
   color: #10b981;
+  margin: 20px 0 -10px 0;
 }
 
 p {
@@ -36,26 +34,26 @@ p {
   color: #fff;
   padding: 12px 15px;
   border-radius: 4px;
-  margin: 20px 0 30px 0;
+  margin: 30px 0 30px 0;
 }
 
 #divider {
   display: block;
   border: 1px solid #2e3f53;
   margin: 10px auto;
-  width: 60%;
+  width: 100%;
 }
 
-.password-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 .pw-btn {
-  width: 15%;
-  height: 50px;
+  width: 200px;
+  height: 35px;
   border-radius: 8px;
   background-color: #263449;
   border: none;
-  margin: 0 20px;
+  color: #10B981;
+  margin: 30px 20px 100px 0;
+}
+
+#right-pw-btn {
+  margin: 0 0 0 40px;
 }
